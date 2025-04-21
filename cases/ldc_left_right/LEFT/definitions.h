@@ -153,8 +153,8 @@
 */
 
 // MPI Data
-#define L_MPI_XCORES 8		///< Number of MPI ranks to divide domain into in X direction
-#define L_MPI_YCORES 16		///< Number of MPI ranks to divide domain into in Y direction
+#define L_MPI_XCORES 1		///< Number of MPI ranks to divide domain into in X direction
+#define L_MPI_YCORES 2		///< Number of MPI ranks to divide domain into in Y direction
 #define L_MPI_ZCORES 1		///< Number of MPI ranks to divide domain into in Z direction (ignored if L_DIMS = 2)
 
 // Decomposition strategy
@@ -183,7 +183,7 @@
 // Non-dimensional domain dimensions
 #define L_BX 0.6   												///< End of domain in X (non-dimensional units)
 #define L_BY (1.0+2.0/L_RESOLUTION)              					///< End of domain in Y (non-dimensional units)
-#define L_BZ 0.025					    							///< End of domain in Z (non-dimensional units)
+#define L_BZ 0.005					    							///< End of domain in Z (non-dimensional units)
 
 // Physical velocity
 #define L_PHYSICAL_U 1.0		///< Reference velocity of the real fluid to model [m/s]

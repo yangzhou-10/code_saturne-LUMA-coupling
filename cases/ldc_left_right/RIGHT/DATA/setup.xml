@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Code_Saturne_GUI case="RIGHT" solver_version="6.0;;7.0" study="CODE_SATURNE" version="2.0">
+<?xml version="1.0" encoding="utf-8"?><Code_Saturne_GUI case="RIGHT" solver_version="6.0;;7.0" study="ldc_left_right" version="2.0">
   <additional_scalars>
     <users/>
   </additional_scalars>
@@ -142,10 +142,11 @@
     <mesh_cartesian>
       <x_direction ncells="120" min="0.40" max="1.0" prog="1.0" law="constant"/>
       <y_direction ncells="200" min="0.005" max="1.005" prog="1.0" law="constant"/>
-      <z_direction ncells="5" min="0.0" max="0.025" prog="1.0" law="constant"/>
+      <z_direction ncells="1" min="0.0" max="0.005" prog="1.0" law="constant"/>
     </mesh_cartesian>
     <mesh_origin choice="mesh_cartesian"/>
     <mesh_smoothing status="off"/>
+    <meshes_list/>
     <periodicity/>
     <thin_walls/>
     <volumic_conditions>
