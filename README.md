@@ -35,7 +35,7 @@ The process of installation is shown in
 ```
 https://github.com/cfdemons/LUMA/wiki/Installing-LUMA
 ```
-The code\_saturne installation package is located in
+The parallel location exchange (PLE) coupling library is included as a part of code\_saturne CFD tool. The installation package of code\_saturne is located in the file
 ```
 components/code_saturne
 ```
