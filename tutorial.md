@@ -7,8 +7,7 @@ This tutorial will guide you through setting up a 2-dimensional lid-driven cavit
 Versions of Code\_Saturne and LUMA which include support for coupling
 between them, as well as the example lid-driven cavity case
 definition, are available from the public repository
-https://github.com/cfdemons/cs-luma-archer, as well as being installed
-on ARCHER2.
+https://github.com/cfdemons/cs-luma-archer.
 
 To use the installed version,
 ```bash

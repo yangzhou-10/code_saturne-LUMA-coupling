@@ -1,11 +1,11 @@
 
-# Code\_Saturne / LUMA coupling on ARCHER2
+# Code\_Saturne / LUMA coupling simulation
 
 This repository contains material related to running Code\_Saturne
-coupled to LUMA on ARCHER2:
+coupled to LUMA:
 
 - [Build scripts](bin/build-all) - Scripts to install Code\_Saturne
-  and LUMA on ARCHER2 from the coupling branches.
+  and LUMA from the coupling branches.
 - [Tutorial](tutorial.md) - An end-user tutorial for running a coupled Code\_Saturne
   / LUMA simulation to simulate a lid-driven cavity flow with LUMA and
   Code_Saturne evolving the left and right halves of the domain
